@@ -1,0 +1,6 @@
+print('='*85)
+nom = str(input('Olá, por favor qual seu nome?')).strip()
+cdd = str(input('{} seja bem vindo(a). Por favor digite o nome de uma cidade qualquer:'.format(nom))).strip()
+print('A cidade de {} começa com o nome de Santo?'.format(cdd))
+print(cdd[:5].upper() == 'SANTO')
+print('='*85)

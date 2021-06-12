@@ -1,0 +1,6 @@
+print('='*45)
+f = str(input('Por favor digite uma frase qualquer:')).upper().strip()
+print('A letra A aparece {} vezes na frase {}.'.format(f.count('A'),f))
+print('A letra A aparece pela primeira vez na posição {}'.format(f.find('A')+1))
+print('A última vez que a letra A aparece na frase é na posição {}'.format(f.rfind('A')+1))
+print('='*45)

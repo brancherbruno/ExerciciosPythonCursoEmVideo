@@ -1,0 +1,5 @@
+nome = input('Olá, qual seu nome?')
+d = int(input('{} quantos dias você utilizou o carro?'.format(nome)))
+k = float(input('{} quantos km você rodou com o carro?'.format(nome)))
+t = (d*60)+(0.15*k)
+print('{} o valor total a ser pago pela utilização do carro é de: R$ {:.2f}'.format(nome,t))

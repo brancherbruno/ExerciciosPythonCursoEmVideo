@@ -1,0 +1,5 @@
+nome = input('Olá, qual seu nome?')
+p = float(input('{}, por favor digite o preço do seu produto: R$'.format(nome)))
+d = int(input('Quanto você gostaria de ganhar de desconto {}?'.format(nome)))
+t = p-(p*(d/100))
+print('{}, o valor que você digitou com {}% de desconto fica R$ {:.2f}'.format(nome,d,t))

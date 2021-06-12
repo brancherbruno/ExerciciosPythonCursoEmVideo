@@ -1,0 +1,5 @@
+print('='*85)
+n = str(input('Olá, por favor digite seu nome completo:')).strip()
+print('O nome {} contém Souza?'.format(n))
+print('SOUZA' in n.upper())
+print('='*85)
