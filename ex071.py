@@ -33,12 +33,13 @@ while True:
                 tno = 0
                 if total == 0:
                     break
-    sleep(5)
+    sleep(2)
     while es not in 'SN':
         es = str(input(f'{nome} você gostaria de sacar mais algum valor? [S/N]')).strip().upper()[0]
     if es == 'N':
         break
 print(' ')
-sleep(2)
+sleep(3)
 print('Obrigado por utilizar o caixa eletrônico 24h')
+sleep(2)
 print('[]'*10, 'FIM DO PROGRAMA', '[]'*10)
